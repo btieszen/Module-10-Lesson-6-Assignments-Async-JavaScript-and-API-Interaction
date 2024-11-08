@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Real Time Data display</title>
+        <style>
+            body{
+                font-family:Arial,sans-serif;
+                background-color:#f2f2f2;
+                text-align:center;
+                margin:0;
+                padding:0;
+            }
+            .data-container{
+                max-width:600px;
+                margin:50px auto;
+                background-color:#fff;
+                border-radius:10px;
+                padding:20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1)
+            }
+            h1{
+                margin-bottom:20px;
+            }
+            p{
+                margin:10px;
+            }
+        </style>
+        <script src="timer.js"></script>
+        
+        </head>
+        <body>
+            <div class="dataContainer">
+                <h1>Real Time Data Display</h1>
+                <div id="waitMessage">
+                    <p>Timer Begin...</p>
+                </div>
+            </div>
+        </body>
+        </html>

@@ -1,0 +1,22 @@
+
+  body{
+    font-family:Arial,sans-serif;
+    background-color:#ddd9e7;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+.data-container{
+    max-width:600px;
+    margin:50px auto;
+    background-color:#c28686;
+    border-radius:10px;
+    padding:20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1)
+}
+h1{
+    margin-bottom:20px;
+}
+p{
+    margin:10px;
+}
